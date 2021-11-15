@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        <title>Investing App Survey Form</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+<body>
+    <h1 id="title">Investing Service Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+
+    <form id="survey-form">
+        <label id="name-label" for="name">Name<br>
+        <input required id="name" type="text" placeholder="Enter your name"><br>
+        </label>
+
+        <label id="email-label" for="email">Email<br>
+        <input required id="email" type="email" placeholder="Enter your Email"><br>
+        </label>
+
+        <label id="number-label" for="number">Age (optional)<br>
+        <input id="number" type="number" placeholder="Age" min="10" max="100"><br>
+        </label>
+
+        <label for="dropdown">Which option best describes your current role?</label><br>
+        <select required id="dropdown" name="dropdown">
+            <option value="" disabled selected>Select Current Role</option>
+            <option value="student">Student</option>
+            <option value="full-time-job">Full Time Job</option>
+            <option value="full-time-learner">Full Time Learner</option>
+            <option value="prefer-not-to-say">Prefer Not To Say</option>
+            <option value="other">Other</option>
+        </select>
+
+
+    </form>
+
+
+
+
+</body>
+</html>
