@@ -1,4 +1,17 @@
 # Survey-Form
+This is a mock Survey Form that asks the users of "Trading App" for feedback.
 
-This is an investing app survey form that asks users for feedback on "Trading App".
-It is simply a way for me to apply what I know about forms, semantic html and so on, so it does not have any proper styling.
+You can see how it looks by clicking on "github-pages" under the heading "Environments". 
+
+Note: This project is not styled
+
+## Purpose Of This Project
+I undertook this small project to get some practice on creating a form through HTML.
+
+
+## Some Of What I Learned
+
+- Semantic HTML
+- Different input types
+- How to use placeholders
+- How to require certain input fields
