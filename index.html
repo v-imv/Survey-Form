@@ -11,17 +11,17 @@
     <h1 id="title">Investing Service Survey Form</h1>
     <p id="description">Thank you for taking the time to help us improve the platform</p>
 
-    <form id="survey-form">
+    <form id="survey-form" action="verybasicform.com">
         <label id="name-label" for="name">Name<br>
-        <input required id="name" type="text" placeholder="Enter your name"><br>
+            <input required id="name" type="text" placeholder="Enter your name"><br>
         </label>
 
         <label id="email-label" for="email">Email<br>
-        <input required id="email" type="email" placeholder="Enter your Email"><br>
+            <input required id="email" type="email" placeholder="Enter your Email"><br>
         </label>
 
         <label id="number-label" for="number">Age (optional)<br>
-        <input id="number" type="number" placeholder="Age" min="10" max="100"><br>
+            <input id="number" type="number" placeholder="Age" min="10" max="100"><br>
         </label>
 
         <label for="dropdown">Which option best describes your current role?</label><br>
@@ -32,8 +32,46 @@
             <option value="full-time-learner">Full Time Learner</option>
             <option value="prefer-not-to-say">Prefer Not To Say</option>
             <option value="other">Other</option>
-        </select>
+        </select><br>
 
+        
+        <label for="definitely">Would you recommend Trading App to a friend?<br>
+            <input id="definitely" type="radio" checked name="def-mb-ns" value="definitely">Definitely
+        </label> 
+
+        <label for="maybe"><br>
+            <input id="maybe" type="radio" name="def-mb-ns" value="maybe">Maybe
+        </label>
+
+        <label for="not-sure"><br>
+            <input id="not-sure" type="radio" name="def-mb-ns" value="not sure">Not Sure
+        </label><br>
+
+        <label for="dropdown-feature">Which Is Your Favourite Feature Of Trading App?</label><br>
+        <select required id="dropdown-feature" name="dropdown-feature">
+            <option value="" disabled selected>Select An Option</option>
+            <option value="leverage">Leveraged Trading</option>
+            <option value="autoinvest">Auto-Invest</option>
+            <option value="fractionalshares">Fractional Shares</option>
+        </select><br>
+
+        <label for="free-courses">What features would you like to see improved? (Check all that apply)<br>
+            <input id="free-courses" type="checkbox" name="improvefeatures" value="freecourses">Free Courses
+        </label> 
+
+        <label for="forum"><br>
+            <input id="forum" type="checkbox" name="improvefeatures" value="forum">Forum
+        </label>
+
+        <label for="consultation"><br>
+            <input id="consultation" type="checkbox" name="improvefeatures" value="consultation">1 On 1 Consultation
+        </label><br>
+
+        <label for="extra">Any other comments/suggestions?</label><br>
+        <textarea id="extra" name="extra" rows="4" cols="50">Enter your comment here.
+        </textarea><br>
+
+        <input id="submit" type="submit" value="Submit">
 
     </form>
 
